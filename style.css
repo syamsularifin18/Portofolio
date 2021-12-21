@@ -85,9 +85,43 @@ section {
 }
 
 .colomb p {
-    margin: 10px;
-    
+    margin: 10px 0px;
 }
 
+@media screen and (max-width: 991.98px) { 
+    .wrapper {
+        width: 90%;
+    }
 
+    .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    .picture {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
